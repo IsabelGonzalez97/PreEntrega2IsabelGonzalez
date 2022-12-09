@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier Prime', monospace;
+    font-family: 'Playfair Display', serif;
+}
+
+ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 50px;
+    
+    
+}
+
+ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    position: relative;
+    display: inline;
+    padding: 0%;
+    margin: 0%;
+    
+    
+    
+}
+    
+header{
+    background-color: rgba(213, 213, 213, 0.548);
+   padding: 30px;
+}
+
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 10rme;
+    
+}
+p{
+    padding: 0px, 80px, 0px, 80px;
+
+}
+.titulo-1{
+    text-align: center;
+    font-size: 8rem;
+    font-weight: bold;
+}
+
+.banner{
+    padding: 90px 0px 90px 0px;
+    background-color: rgba(213, 213, 213, 0.548);
+}
+
+.sobre-nosotros{
+    display: flex; 
+    padding: 0px, 0px, 90px, 0px;
+
+}
+
+.titulos{
+    padding: 90px;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.descripcion1{
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.imagen-1-home{
+    border-radius: 7%;
+    width: 20%;
+    height: 20%;
+    margin-right: -50px;
+    margin-top: -50px;
+    transform: rotate(10deg);
+    transition: height 2s, width 1s;
+}
+.imagen-2-home{
+    border-radius: 7%;
+    width: 20%;
+    height: 20%;
+    margin-left: -100px;
+    margin-top: -100px;
+    transform: rotate(10deg);
+}
+
+
+.comentario{
+    padding: 90px 90px 90px 90px;
+    margin: 90px;
+    font-size: 2rem;
+}
+
+.fondo-comentario{
+    background-color: rgba(213, 213, 213, 0.548);
+
+}
+
+.descripcion2{
+    padding-right: 70px;
+    padding-left: 70px;
+
+}
+
+.algunos-servicios{
+    display: flex;
+}
+.imagendibujo{
+    border-radius: 7%;
+    width: 500px;
+    height: 333px;
+
+}
+
+.container-flex{
+    border: 1px rgb(179, 179, 179);
+    display: flex;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+
+.caja{
+     border: 1px solid rgb(162, 162, 162);
+     background-color: aliceblue;
+     color: black;
+     width: 400px;
+     height: 400px;
+     line-height: 400px;
+     text-align:center;
+     margin: 5px;
+     font-size: 1.5rem;
+     font-weight: bold ;
+
+}
+
+.c1{
+    border: 1px solid rgb(162, 162, 162);
+    background-image:url(../img/imagen\ 2.jpg) ;
+    color: black;
+    width: 400px;
+    height: 400px;
+    line-height: 400px;
+    text-align:center;
+    margin: 5px;
+}
+
+
+.c2{
+    border: 1px solid rgb(162, 162, 162);
+    background-image:url(../img/chica\ 1\ .jpg) ; 
+    color: black;
+    width: 400px;
+    height: 400px;
+    line-height: 400px;
+    text-align:center;
+    margin: 5px;
+}
+.c3{
+    border: 1px solid rgb(162, 162, 162);
+    background-image:url(../img/imagen\ 3.jpg) ;
+    color: black;
+    width: 400px;
+    height: 400px;
+    line-height: 400px;
+    text-align:center;
+    margin: 5px;
+}
+
+footer{
+    margin: 10px;
+    background-color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    color: azure;
+    padding: 30px;
+}
+
+
+.flxbox{
+    background-color: rgba(213, 213, 213, 0.548);
+}
+ /*.ul li a */
+@media only screen and(max-width: 576){
+    .ul li a{
+        flex-direction: column;
+        
+    }
+
+}
+    
+    
+
+@media only screen and(max-width: 576){
+        .header{
+            flex-direction: column;
+            
+        }
+    
+}
+
+@media only screen and(max-width: 576){
+    h1{
+    text-align: center;
+}
+
+
+}
+
+
+/*contacto*/
+
+.bannercontacto{
+    background-image:url(../img/pexels-daan-stevens-939331.jpg);
+    padding: 90px;
+
+}
+
+/*servicios*/
+
+.bannerservicios{
+    background-image:url(../img/pexels-daan-stevens-939331.jpg);
+    padding: 90px;
+}
+
+
+/*portafolio*/
+
+.bannerportafolio{
+    background-image:url(../img/pexels-daan-stevens-939331.jpg);
+    padding: 90px;
+}
+
+.row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap ;
+}
+
+.columna{
+    flex: 25%;
+    padding: 25%;
+}
+.img-portafolio{
+    width: 100%;
+}
+
+
+@media (max-width: 800px){
+    .columna{
+        flex: 50%;
+    }   
+
+}
+
+@media (max-width: 600px){
+    .columna{
+        flex: 100%;
+    }   
+
+}
+
+/*nosotros*/
+
+.bannernosotros{
+    background-image:url(../img/pexels-daan-stevens-939331.jpg);
+    padding: 90px;
+
+}
+
+.sobre-nosotros{
+    display: flex; 
+    margin: 120px;
+
+}
+
+.imagen-servicios{
+    border-radius: 7%;
+    width: 500px;
+    height: 333px;
+    
+}
+
