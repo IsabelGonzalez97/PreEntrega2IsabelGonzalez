@@ -1,3 +1,5 @@
+/*Estilos generales*/
+
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +9,11 @@
 body{
     font-family: 'Courier Prime', monospace;
     font-family: 'Playfair Display', serif;
+}
+.contenedor{
+    width:100%;
+    margin: 0 auto;
+    overflow:hidden;
 }
 
 ul li a{
@@ -24,10 +31,8 @@ ul li{
     display: inline;
     padding: 0%;
     margin: 0%;
-    
-    
-    
 }
+    
     
 header{
     background-color: rgba(213, 213, 213, 0.548);
@@ -48,9 +53,13 @@ p{
     padding: 0px, 80px, 0px, 80px;
 
 }
+
+/*Index*/
+
+
 .titulo-1{
     text-align: center;
-    font-size: 8rem;
+    font-size: 96px;
     font-weight: bold;
 }
 
@@ -60,21 +69,29 @@ p{
 }
 
 .sobre-nosotros{
-    display: flex; 
+    display: flex;
     padding: 0px, 0px, 90px, 0px;
-
 }
 
 .titulos{
-    padding: 90px;
+    padding: 10px;
     font-size: 4rem;
     text-align: center;
 }
 
+
 .descripcion1{
-    padding-right: 70px;
-    padding-left: 70px;
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 50%;
+    box-sizing: border-box;
 }
+
+.seccion-imagenes{
+    position:inherit;
+    width: 50%;    
+}
+
 .imagen-1-home{
     border-radius: 7%;
     width: 20%;
@@ -98,6 +115,7 @@ p{
     padding: 90px 90px 90px 90px;
     margin: 90px;
     font-size: 2rem;
+    width: 100%;
 }
 
 .fondo-comentario{
@@ -125,7 +143,6 @@ p{
     border: 1px rgb(179, 179, 179);
     display: flex;
     padding: 20px;
-    display: flex;
     justify-content: center;
     
 
@@ -192,34 +209,7 @@ footer{
 .flxbox{
     background-color: rgba(213, 213, 213, 0.548);
 }
- /*.ul li a */
-@media only screen and(max-width: 576){
-    .ul li a{
-        flex-direction: column;
-        
-    }
-
-}
-    
-    
-
-@media only screen and(max-width: 576){
-        .header{
-            flex-direction: column;
-            
-        }
-    
-}
-
-@media only screen and(max-width: 576){
-    h1{
-    text-align: center;
-}
-
-
-}
-
-
+ 
 /*contacto*/
 
 .bannercontacto{
@@ -258,20 +248,6 @@ footer{
 }
 
 
-@media (max-width: 800px){
-    .columna{
-        flex: 50%;
-    }   
-
-}
-
-@media (max-width: 600px){
-    .columna{
-        flex: 100%;
-    }   
-
-}
-
 /*nosotros*/
 
 .bannernosotros{
@@ -293,3 +269,87 @@ footer{
     
 }
 
+
+ /* REsponsive */
+
+ /*@media screen and(max-width: 800px){
+    .imagen-1-home{
+        border-radius: 7%;
+        width: 100%;
+    }
+    }
+
+    @media (min-width: 800){
+        .titulo-1{
+    text-align: center;
+    font-size: 3px;
+    font-weight: bold;}
+    }
+    
+     @media (min-width:600px){
+        
+     }
+    @media screen and(max-width: 576){
+        .ul li a{
+            flex-direction: column;
+            
+        }
+    
+    }
+        
+    
+    @media screen and(max-width: 576){
+            .header{
+                flex-direction: column;
+                
+            }
+        
+    }
+    
+    
+    @media (max-width: 576){
+        h1{
+        text-align: center;
+        font-size: 3px;
+    
+    }
+    }
+    
+    
+    @media (min-width:600px){
+        
+    }
+    @media (max-width: 800px){
+        .columna{
+            flex: 50%;
+        }   
+    
+    }
+    
+    @media (max-width: 600px){
+        .columna{
+            flex: 100%;
+        }   
+    
+    }*/
+    @media only screen and (max-width: 768px){
+
+    }
+    
+    @media only screen and (max-width: 576){
+    
+    /*estilos generales*/
+    .header{
+        flex-direction: column;
+        padding: 5px;
+
+        /*index*/
+    }
+    .titulo-1{
+        font-size: 1rem !important;
+    }
+    .sobre-nosotros{
+        justify-content: column;
+    }   
+}
+    

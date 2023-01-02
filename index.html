@@ -9,12 +9,15 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap"
         rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilos.css">
     <title>Inicio</title>
 </head>
 
 <body>
 
+
+<div class="contenedor">
     <header>
         
         <nav>
@@ -50,9 +53,11 @@
                 dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Ut enim ad minim veniam.</p>
-
-            <img class="imagen-1-home" src="/img/imagen 3.jpg" alt="">
-            <img class="imagen-2-home" src="/img/chica 1 .jpg" alt="mujer">
+        </article>
+          
+        <article class="seccion-imagenes">
+                <img class="imagen-1-home" src="/img/imagen 3.jpg" alt="">
+                <img class="imagen-2-home" src="/img/chica 1 .jpg" alt="mujer">
         </article>
     </section>
 
@@ -62,7 +67,6 @@
         eiusmod tempor incididunt ut labore et
         </p>
     </section>
-
 
     <section class="algunos-servicios">
             <article>
@@ -89,15 +93,11 @@
 
             <h3 class="titulos">servicios</h3>
             
-            <article class="container-flex">
-                <div class="caja c1">
-                    Diseño web 
-                </div>
-                <div class="caja c2">
-                    Fotografía
-                </div>
-                <div class="caja c3">
-                    Audiovisuales
+            <article class="container">
+                <div class="row">
+                    <div class="col-md-4 caja c1"> Diseño web </div>
+                    <div class="col-md-4 caja c2"> Fotografía </div>
+                    <div class="col-md-4  caja c3"> Audiovisuales </div>
                 </div>
             </article>
 
@@ -105,6 +105,10 @@
         </section>
 
     </section>
+
+</div>
+
+
 
 
 </body>
